@@ -12,6 +12,7 @@
 
 ## 效果图 ##
 
+![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/v_all.gif)
 ![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/v_all_fr.gif)
 
 ## 切换动画 ##
