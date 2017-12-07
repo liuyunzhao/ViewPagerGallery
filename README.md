@@ -7,6 +7,9 @@
 
 **android:clipChildren属性**：是否限制子控件在其范围内显示，也就是说当子控件超出父控件规定大小时，超出部分是否显示，clipChildren默认值为true。 也就是不允许超出绘制
 
+
+## **[Demo下载](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/app.apk)** ##
+
 ## 效果图 ##
 
 ![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/vp.png)
@@ -69,7 +72,5 @@ postion主要分为
 
 其实效果实现起来并不难，只要理解了clipChildren属性的作用，再自定义一个PageTransformer过渡动画，ViewPager的各种效果也就不难实现了。
 
-当然了，如果你不想用clipChildren属性，或者说使用继承PagerAdapter的方式定义布局不方便，则可以使用Viewpager添加Fragment方式来实现。效果图和上面一样就不再放了，所有实现方式再源码中都有，感兴趣可以戳源码下载。
-
-## **[Demo下载](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/app.apk)** ##
+当然了，如果你不想用clipChildren属性，或者说使用继承PagerAdapter的方式定义布局不方便，则可以使用Viewpager添加Fragment方式来实现。具体实现请看源码。
 
