@@ -68,6 +68,11 @@ postion主要分为
 不设置setPageMargin大小两个page页也是有间距的
 间距大小=page原大小*（1-缩放倍数）/2
 
+如图
+
+![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/11.png)
+
+
 **总结**
 
 其实效果实现起来并不难，只要理解了clipChildren属性的作用，再自定义一个PageTransformer过渡动画，ViewPager的各种效果也就不难实现了。
