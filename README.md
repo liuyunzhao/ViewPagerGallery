@@ -12,10 +12,7 @@
 
 ## 效果图 ##
 
-![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/vp.png)
-![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/v_all.gif)
 ![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/v_all_fr.gif)
-![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/v_all_mid.gif)
 
 ## 切换动画 ##
     public class ZoomOutPageTransformer implements ViewPager.PageTransformer {
