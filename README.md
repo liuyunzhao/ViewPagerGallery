@@ -1,22 +1,20 @@
-###ViewPager一屏显示多个页面
+## ViewPager一屏显示多个页面 ##
+
 [CSDN博客地址具体讲解](http://blog.csdn.net/Liu_yunzhao/article/details/78198745)
 [http://blog.csdn.net/Liu_yunzhao/article/details/78198745](http://blog.csdn.net/Liu_yunzhao/article/details/78198745)
 
-使用ViewPager一般我们只需要一屏只显示一个页面，例如引导页、轮播图等。但它如何能一屏显示多个页面呢？其实很简单就是在控件的父布局或根布局添加clipChildren=false属性即可
+使用ViewPager一般我们只需要一屏只显示一个页面，例如引导页、轮播图等。但它如何能一屏显示多个页面呢？其实很简单就是在控件的父布局或根布局**添加clipChildren=false属性即可**
 
-android:clipChildren属性：是否限制子控件在其范围内显示，也就是说当子控件超出父控件规定大小时，超出部分是否显示，clipChildren默认值为true。 也就是不允许超出绘制
+**android:clipChildren属性**：是否限制子控件在其范围内显示，也就是说当子控件超出父控件规定大小时，超出部分是否显示，clipChildren默认值为true。 也就是不允许超出绘制
 
-###效果图
+## 效果图 ##
 
 ![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/vp.png)
-
 ![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/v_all.gif)
-		
 ![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/v_all_fr.gif)
-			
 ![](https://github.com/liuyunzhao/ViewPageGallery/blob/master/git/v_all_mid.gif)
 
-##切换动画
+## 切换动画 ##
     public class ZoomOutPageTransformer implements ViewPager.PageTransformer {
     public static final float MIN_SCALE = 0.8f;//原图片缩小0.8倍
     private static final float MIN_ALPHA = 0.6f;//透明度
