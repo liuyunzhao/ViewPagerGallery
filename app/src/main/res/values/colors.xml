@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="default_line_indicator_selected_color">#f35049</color>
+    <color name="default_line_indicator_unselected_color">#FF888888</color>
+    <dimen name="default_line_indicator_line_width">22dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">3dp</dimen>
+    <integer name="default_line_indicator_width_sum">10</integer>
+    <bool name="default_line_indicator_centered">true</bool>
+</resources>

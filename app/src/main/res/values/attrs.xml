@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+        <attr name="vpiIconPageIndicatorStyle" format="reference"/>
+        <attr name="vpiLinePageIndicatorStyle" format="reference"/>
+        <attr name="vpiTitlePageIndicatorStyle" format="reference"/>
+        <attr name="vpiTabPageIndicatorStyle" format="reference"/>
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="LinePageIndicator">
+        <attr name="centered"  format="boolean"/>
+        <attr name="unselectedColor" format="color"/>
+        <attr name="selectedColor" format="color"/>
+        <attr name="lineWidth" format="dimension" />
+        <attr name="strokeWidth1" format="dimension"/>
+        <attr name="gapWidth" format="dimension" />
+        <attr name="android:background"/>
+    </declare-styleable>
+</resources>

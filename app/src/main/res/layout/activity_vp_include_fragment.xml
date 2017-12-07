@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <com.cn.lyz.viewpagegallery.indicator.LinePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/vp"
+        android:layout_marginTop="15dp"
+        app:centered="true"
+        app:selectedColor="@color/default_line_indicator_selected_color"
+        app:unselectedColor="@color/default_line_indicator_unselected_color"/>
+
+</LinearLayout>
